@@ -1,11 +1,16 @@
-import { Button } from "./components/button/Button";
-import "./index.css";
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import { Zadanie1 } from "./components/zadanie1";
+import { Zadanie2 } from "./components/zadanie2";
+import { Zadanie3i4 } from "./components/zadanie3i4";
+import { Zadanie5 } from "./components/zadanie5";
 
 function App() {
   return (
     <>
-      <h1>KNUR + REACT</h1>
-      <Button name="click!" />
+      <Zadanie1 />
+      <Zadanie2 />
+      <Zadanie3i4 />
+      <Zadanie5 />
     </>
   );
 }
