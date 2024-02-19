@@ -1,11 +1,17 @@
-import { Button } from "./components/button/Button";
-import "./index.css";
+import { Zadanie1 } from "./Zadanie1";
+import { Zadanie2 } from "./Zadanie2";
+import { Zadanie3 } from "./Zadanie3";
+import { Zadanie4 } from "./Zadanie4";
+import { Zadanie5 } from "./Zadanie5";
 
 function App() {
   return (
     <>
-      <h1>KNUR + REACT</h1>
-      <Button name="click!" />
+      <Zadanie1 />
+      <Zadanie2 />
+      <Zadanie3 />
+      <Zadanie4 />
+      <Zadanie5 />
     </>
   );
 }
