@@ -62,7 +62,7 @@ export const Zadanie3i4 = () => {
           ))}
         </tbody>
       </table>
-      <button onClick={segregacja}>Segreguj</button>
+      <button onClick={segregacja}>Segregacja</button>
     </>
   );
 };

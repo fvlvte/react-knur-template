@@ -10,4 +10,4 @@ export const Zadanie1 = () => {
       <button onClick={() => setLicznik(licznik + 1)}>Zwieksz</button>
     </>
   );
-}
+};
